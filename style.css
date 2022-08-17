@@ -1,0 +1,208 @@
+* {
+    font-family: "Barlow", sans-serif;
+}
+body {
+    font-size: 18px;
+}
+.header {
+    height: 100vh;
+    background-image: url(./imagenes/image-header.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px 50px 0px 30px;
+}
+.nav__h2 {
+    color: white;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav__menu {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav__menu__link {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.nav__menu__border {
+    background-color: white;
+    border-radius: 45px;
+    padding: 0px 7px;
+}
+.nav__menu__color {
+    color: black
+}
+.header__h1 {
+    display: flex;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    letter-spacing: 0.2em;
+}
+.div__img {
+    text-align: center;
+    
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article {
+    width: 50vw;
+    margin: 0px 10% 12px;   
+}
+.article__img { 
+    width: 48.35vw;
+}
+.article__h2 {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+}
+.article__p {
+    color: hsl(180, 1%, 58%);
+    font-size: xx-small;
+}
+.article__a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    font-size: xx-small;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    background-image: linear-gradient(to top, rgb(244, 230, 150), white);
+    border-radius: 20px;
+}
+.sectionc {
+    height: 80vh;
+    display: flex;
+    width: 100%;
+}
+.articlec1 {
+    width: 50%;
+    background-image: url(./imagenes/fondo-cereza.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: hsl(168, 65%, 27%);
+}
+.articlec2 {
+    width: 50%;
+    background-image: url(./imagenes/fondo-naranja.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    color: hsl(185, 59%, 23%);
+}
+.articlec__h2 {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+}
+.articlec__p {
+    font-size: small;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 35px;
+}
+.sectionb {
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 3vh;
+    padding-bottom: 15vh;
+    display: flex;
+    height: 70vh;
+}
+.div { /*div de la seccion de h2 de testimonios de los clientes*/
+    text-align: center;
+    margin-top: 25vh;
+}
+.div__h2 {
+    font-family: "Fraunces", sans-serif;
+    font-size: small;
+    color: hsl(180, 1%, 58%);
+    letter-spacing: 0.2em;
+}
+.div__perfil {
+    height: 50px;
+    width: 50px;
+    background-image: url(./imagenes/image-emily.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto; /*centramos la imagen*/
+}
+.div__perfil2 {
+    height: 50px;
+    width: 50px;
+    background-image: url(./imagenes/image-thomas.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}.div__perfil3 {
+    height: 50px;
+    width: 50px;
+    background-image: url(./imagenes/image-jennie.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.blockquote {
+    margin: 0;
+    margin-right: 6px;
+    color: hsl(180, 1%, 58%);
+    text-align: center;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.blockquote__nombre {
+    color: black;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+}
+.section__img {
+    max-width: 25%;
+}
+.footer {
+    padding: 23px;
+    margin-bottom: 0px;
+    background: hsl(168, 53%, 62%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__h2 {
+    color: hsl(168, 34%, 28%);
+}
+.footer__ul {
+    list-style: none;;
+}
+.footer__ul__padding {
+    padding-top: 30px;
+}
+.footer__li {
+    display: inline-block;
+    
+}
+.footer__link {
+    color: hsl(168, 34%, 41%);
+    text-decoration: none; 
+    padding-right: 20px;
+}
+    
